@@ -1,0 +1,84 @@
+<style>
+body{
+    background-color:#000000;   
+    color:#00FA9A;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+header h1 {
+    color:white;
+    position:relative;
+    top:10px;  
+}
+
+header .logo2 {
+    background-color:white;
+    position:relative;
+    top:25px;
+    
+}
+
+.navegaçãoAbaixoDoHeader{   
+    display:flex;
+    gap:25px;
+    justify-content:center;
+}
+
+button{
+    width: 70px;
+    height: 25px;
+    font-size:13px;
+    border-radius:10px;
+    background-color:orange;
+    color:white;
+}
+main{
+    margin:1%;
+    
+}
+.listaDeAnimes{
+    height:230px;
+    border-radius:10px;
+       
+    
+}
+
+main h2{
+    margin-left:15px;
+}
+
+main section img{
+    width:280px;
+    height:160px;   
+    margin-left:10px;
+    cursor:pointer;
+}
+
+article{
+    overflow-x:scroll;
+    display:flex;
+}
+span {
+    margin-left:13px;
+    color:orange;
+    cursor:pointer;
+}
+
+footer {
+    background-color:green;
+    height:300px;
+}    
+  
+footer h2 {
+    color:white;
+    margin-left:10px;
+} 
+    
+main section a {
+    text-decoration:none;
+}    
