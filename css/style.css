@@ -37,6 +37,8 @@ button{
     background-color:orange;
     color:white;
     cursor:pointer;
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
 }
 main{
     margin:1%;
@@ -82,4 +84,8 @@ footer h2 {
     
 main section a {
     text-decoration:none;
-}    
+}  
+
+button:hover{
+    background-color: #96d9d6;
+}     
