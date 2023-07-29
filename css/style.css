@@ -36,6 +36,7 @@ button{
     border-radius:10px;
     background-color:orange;
     color:white;
+    cursor:pointer;
 }
 main{
     margin:1%;
